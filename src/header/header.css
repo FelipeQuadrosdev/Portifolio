@@ -1,0 +1,55 @@
+.titulo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #71717a;
+    width: 100vw;
+    padding: 15px;
+
+}
+
+.descricao {
+    width: 100vh;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+#profissao {
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+#nome {
+    font-size: 35px;
+    color: #fff;
+}
+img {
+    width: 15rem;
+    height: 15rem;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    border-radius: 15rem;
+    cursor: pointer;
+}
+strong {
+    font-weight: bold;
+    color: #fff;
+}
+.minha-imagem {
+    animation: mover 3s ease-in-out forwards;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(200px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}

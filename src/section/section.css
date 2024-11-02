@@ -1,0 +1,32 @@
+.sectionsub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    flex-direction: column;
+    text-align: center;
+}
+hr {
+    margin: 10px;
+    border: 0;
+    height: 2px;
+    background-color: #ccc;
+    width: 80vw;
+
+
+}
+.span {
+    color: #1d4ed8;
+}
+
+.sectioh2 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.subtitulo {
+    font-size: 21px;
+    color: #71717a;
+}

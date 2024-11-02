@@ -1,0 +1,273 @@
+.foterprincipal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.fotersub1 {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.input {
+    display: flex;
+    height: 2rem;
+    width: 30vw;
+    margin: 5px;
+    margin-left: 2rem;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #d7d7d7;
+
+}
+
+input::placeholder {
+    color: #8d8d8d;
+    padding-left: -2px;
+
+}
+
+.mensagem {
+    display: flex;
+    height: 150px;
+    width: 30vw;
+    margin: 5px;
+    margin-left: 2rem;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 1rem;
+    color: #000;
+    background-color: #d7d7d7;
+}
+
+.mensagem::placeholder {
+    color: #8d8d8d;
+    padding-left: 10px;
+
+}
+
+.buttonEnviarForm {
+    background-color: #18181b;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 5px;
+    font-family: italic;
+    font-size: 20px;
+    margin-left: 99px;
+    margin-top: 0.9rem;
+    width: 8rem;
+    height: 2.1rem;
+}
+
+.buttonEnviarForm:hover {
+    background-color: #fff;
+    color: #1d4ed8;
+    cursor: pointer;
+    border-color: #1d4ed8;
+}
+
+.divbuttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 3rem;
+    gap: 3rem;
+    color: #fff;
+
+}
+
+.linck {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 1.5rem;
+    border-radius: 5rem;
+
+}
+
+.imgIcone {
+    width: 100%;
+    height: 100%;
+    margin: 1.5rem;
+}
+
+.imgIcone:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    transition: box-shadow 0.3s ease;
+
+
+}
+
+.fotersub2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 4rem;
+    flex-wrap: nowrap;
+    text-align: center;
+
+}
+
+.footerh2 {
+    display: flex;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    flex: 1, 1 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#foterenvie {
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 4.4rem;
+    margin-top: 1rem;
+    text-align: center;
+    display: flex;
+    padding: 1rem;
+}
+
+
+@media (max-width: 1215px) {
+    .foterprincipal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -25px;
+        margin-top: 15px;
+        flex-direction: column-reverse;
+    }
+
+    .fotersub1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .fotersub1 .input,
+    .mensagem {
+        width: 200%;
+        padding: 20px;
+
+    }
+
+    .buttonEnviarForm {
+        margin: 15px auto;
+
+    }
+
+    .fotersub2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .fotersub2 .footerh2 {
+        text-align: center;
+        font-size: 2rem;
+        margin-left: -15px;
+
+    }
+
+    .fotersub2 #foterenvie {
+        text-align: center;
+        margin: 25px auto;
+        font-size: 1.5rem;
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .foterprincipal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -25px;
+        margin-top: 15px;
+    }
+
+    .fotersub1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fotersub1 .input,
+    .mensagem {
+        width: 200%;
+        padding: 20px;
+
+    }
+
+    .buttonEnviarForm {
+        margin: 15px auto;
+
+    }
+
+    .fotersub2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fotersub2 .footerh2 {
+        text-align: center;
+        font-size: 2rem;
+        margin-left: -15px;
+    }
+
+    .fotersub2 #foterenvie {
+        text-align: center;
+        margin: 25px auto;
+
+    }
+
+    .divbuttons {
+        margin-right: 2rem;
+        gap: 1rem;
+
+    }
+}
+
+@media (max-width: 572px) {
+
+    .fotersub1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fotersub1 .input,
+    .mensagem {
+        width: 120%;
+    }
+
+    .buttonEnviarForm {
+        margin: 15px auto;
+    }
+
+    .footerh2 {
+      text-align: center;
+    }
+
+    .fotersub2 #foterenvie {
+        text-align: center;
+
+        font-style: italic;
+    }
+
+}

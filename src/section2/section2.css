@@ -1,0 +1,48 @@
+.slider {
+    display: flex;
+    width: 100vw;
+    height: 11rem;
+    object-fit: cover;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-image: linear-gradient(to bottom,#e7e7e7, #f9f9f9, #c2c2c2);
+    margin-top:-1rem;
+
+}
+
+.slide-sub {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+    margin-left: 2rem;
+}
+
+.slide-item {
+    display: flex;
+    cursor: grab;
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.slide-nome {
+    display: flex;
+    margin-left: 85px;
+    text-align: center;
+    font-size: 1rem;
+    color: #787878;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+
+}
+
+@media (max-width: 600px) {
+    .slide-item {
+        height: 3rem;
+    }
+
+}

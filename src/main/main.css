@@ -1,0 +1,19 @@
+.mainprincipal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100vw;
+
+}
+
+#descrimain {
+    width: 100vh;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: lighter;
+    margin: 1.6rem;
+    margin-bottom: 4rem;
+
+}
