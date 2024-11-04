@@ -12,7 +12,7 @@ export default function Article(){
 
         <aside className="articleaside1">
           <h3 className="articleh3"><img src={photo14} alt="Ícone" className="imgIcon" />DataBases</h3>
-          <p id="conteudo">Utilização NoSQL,Como Firebase e MongoDB,Tenho SQL Académico.</p>
+          <p id="conteudo">Utilizando NoSQL,Como Firebase e MongoDB,Tenho SQL Académico como mysql e oracle.</p>
         </aside>
         
       </article>
