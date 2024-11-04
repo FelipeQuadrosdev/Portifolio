@@ -156,20 +156,20 @@
 
 @media (max-width: 600px) {
     .containerimagem {
-        width: 22rem;
+        width: 20rem;
         height: 22rem;
         box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
     }
 
     .containerimagem img {
-        width: 22rem;
+        width: 20rem;
         height: 23rem;
         margin: 0 auto;
 
     }
 
     .content {
-        width: 22rem;
+        width: 20rem;
         height: 20rem;
         margin: 0 auto;
     }
