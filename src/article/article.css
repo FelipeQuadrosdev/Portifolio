@@ -61,3 +61,8 @@
     color: #fff;
     font-size: 1.2rem;
 }
+@media (max-width: 361px) {
+.articleprincipal{
+   margin-left: 1rem;
+}
+}
