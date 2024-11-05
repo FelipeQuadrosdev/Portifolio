@@ -261,7 +261,7 @@ input::placeholder {
     }
 
     .footerh2 {
-      text-align: center;
+        text-align: center;
     }
 
     .fotersub2 #foterenvie {
@@ -270,4 +270,13 @@ input::placeholder {
         font-style: italic;
     }
 
+    @media (max-width: 350px) {
+        .fotersub1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 15rem;
+        }
+        
+    }
 }
