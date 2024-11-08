@@ -88,10 +88,8 @@ strong {
     color: #fff;
 }
 
-.minha-imagem {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.div_imagem_perfil{
+   
     animation: mover 3s ease-in-out forwards;
 }
 
@@ -130,4 +128,15 @@ strong {
         margin: 0 auto;
     }
 
+    .div_imagem_perfil {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .div_imagem_perfil img{
+      
+    }
 }
