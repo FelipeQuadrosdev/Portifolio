@@ -6,33 +6,40 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    background-image: linear-gradient(to bottom,#e7e7e7, #f9f9f9, #c2c2c2);
-    margin-top:-1rem;
+    background-image: linear-gradient(to bottom, #e7e7e7, #f9f9f9, #c2c2c2);
+    margin-top: -1rem;
 
 }
 
 .slide-sub {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.slide_img_li {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 5rem;
-    margin-left: 2rem;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
 }
 
 .slide-item {
-    display: flex;
     cursor: grab;
     width: 3rem;
     height: 3rem;
+    margin: 0 auto;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 5px;
 }
 
 .slide-nome {
-    display: flex;
-    margin-left: 85px;
-    text-align: center;
+    margin: 0 auto;
     font-size: 1rem;
     color: #787878;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

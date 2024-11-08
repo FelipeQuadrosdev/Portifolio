@@ -41,12 +41,14 @@ export default function Section2() {
             >
                 {data.map((item) => (
                     <SwiperSlide key={item.id} className="slide-sub">
+                        <div className="slide_img_li">
                         <img
                             src={item.imagem}
                             alt="Slider"
                             className="slide-item"
                         />
                         <li className="slide-nome">{item.nome}</li>
+                        </div>
                     </SwiperSlide>
                 ))}
             </Swiper>

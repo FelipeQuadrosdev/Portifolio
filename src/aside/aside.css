@@ -83,11 +83,11 @@
     border-radius: 5px;
     visibility: hidden;
     position: absolute;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: justify;
 }
 
 .containerimagem:hover .content {

@@ -62,15 +62,15 @@ export default function Footer() {
             </form>
 
             <div className="fotersub2">
-
-                <h2 className="footerh2">Envie uma Mensagem</h2>
-                <p id="foterenvie">Fique a vontade para entrar em contato comigo atraves de umas das minhas redes sociais ou<br />
-                    me enviando um e-mail preenchendo os campos ao lado</p><br /><br />
-
+                <div className="divforter">
+                    <h2 className="footerh2">Envie uma Mensagem</h2>
+                    <p id="foterenvie">Fique a vontade para entrar em contato comigo atraves de umas das minhas redes sociais ou<br />
+                        me enviando um e-mail preenchendo os campos ao lado</p><br /><br />
+                </div>
                 <div className="divbuttons">
-                    <a className="linck" target="black" rel="external" href="https://contate.me/desenvolverfront" ><img src={photo10} alt="Ícone" className="imgIcone" /></a>
-                    <a className="linck" target="black" rel="external" href="https://www.linkedin.com/in/felipe-de-quadros-gomes-b990012aa/"><img src={photo12} alt="Ícone" className="imgIcone" /></a>
-                    <a className="linck" target="black" rel="external" href="https://github.com/FelipeQuadrosdev"><img src={photo11} alt="Ícone" className="imgIcone" /></a>
+                    <a className="linck" target="black" rel="external" href="https://contate.me/desenvolverfront" ><img src={photo10} alt="Ícone do whatsapp" className="imgIcone" /></a>
+                    <a className="linck" target="black" rel="external" href="https://www.linkedin.com/in/felipe-de-quadros-gomes-b990012aa/"><img src={photo12} alt="Ícone do linkedin" className="imgIcone" /></a>
+                    <a className="linck" target="black" rel="external" href="https://github.com/FelipeQuadrosdev"><img src={photo11} alt="Ícone do github" className="imgIcone" /></a>
                 </div>
 
             </div>

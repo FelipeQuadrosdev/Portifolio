@@ -3,7 +3,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
+    width: 70%;
+    
 }
 
 .articleaside1 {
@@ -12,7 +13,8 @@
     background-color: #1d4ed8;
     border-radius: 1rem;
     margin-top: -1rem;
-    text-align: center;
+    text-align: justify;
+    padding: 0  0.5rem;
     margin-right: 1rem;
     margin-bottom: 2rem;
 
@@ -23,7 +25,6 @@
     transform: translateY(100%);
     animation: aparecer 2s ease forwards;
 }
-
 @keyframes aparecer {
 
     0% {
@@ -60,9 +61,22 @@
 #conteudo {
     color: #fff;
     font-size: 1.2rem;
+    
 }
-@media (max-width: 361px) {
-.articleprincipal{
-   margin-left: 1rem;
-}
+
+@media (max-width: 410px) {
+    .articleprincipal {
+        margin-left: 1rem;
+
+    }
+    .articleprincipal h3{
+        padding-bottom: -2rem ;
+    }
+    .articleaside1{
+        height: 13rem;
+    }
+    .articleh3{
+        font-size: 1.3rem;
+    }
+    
 }

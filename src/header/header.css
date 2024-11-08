@@ -3,44 +3,95 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    color: #71717a;
+    flex-direction: column;
+    color: #c0c0c0;
     width: 100vw;
     padding: 15px;
 
 }
 
+.headerbuttons {
+    display: flex;
+    margin-left: -90%;
+    justify-self: end;
+    width: 4rem;
+    height: 3rem;
+    color: #fff;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.linckhedaer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+    margin: 0.90rem;
+    border-radius: 5rem;
+}
+
+.headerbuttons .imgIcone {
+    width: 100%;
+    height: 100%;
+}
+
+.titulo_p {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+}
+
 .descricao {
-    width: 100vh;
-    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
     font-size: 1.2rem;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    text-align: center;
-    
+    line-height: 2rem;
+    text-align: justify;
+    color: #cfcfcf;
 }
 
 #profissao {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
     color: #fff;
-    margin-bottom: 25px;
+    width: 70%;
+    margin-bottom: -1rem;
 }
 
 #nome {
-    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
     color: #fff;
+
+
 }
+
 img {
     width: 15rem;
     height: 15rem;
     margin-left: 5rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     border-radius: 15rem;
     cursor: pointer;
 }
+
 strong {
     font-weight: bold;
     color: #fff;
 }
+
 .minha-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     animation: mover 3s ease-in-out forwards;
 }
 
@@ -50,6 +101,33 @@ strong {
     }
 
     100% {
-        transform: translateX(0px);
+        transform: translateX(-2.5rem);
     }
+}
+
+@media(max-width: 500px) {
+    .descricao {
+        line-height: 1.5rem;
+    }
+
+    #profissao {
+        font-size: 1.3rem;
+    }
+
+    #nome {
+        font-size: 1.3rem;
+    }
+
+    .titulo_p {
+        width: 95%;
+    }
+
+    .headerbuttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
 }

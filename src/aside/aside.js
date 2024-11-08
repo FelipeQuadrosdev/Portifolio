@@ -12,9 +12,9 @@ import photo9 from "../photo/fotocurriculo.jpg"
 export default function Aside() {
     const [sliderPerView, setSlidePerView] = useState(3);
     const capa = [
-        { id: 1, imagem: photo7, titulo: "Filmes em Cartaz", descricao: "Projeto criado para ver os filmes em cartaz, consumindo API com Axios, usando controle de rotas com React Router DOM e a biblioteca React-Toastify para animações com botões e React para a interface do usuário.", deployurl: " https://filme-cartaz.netlify.app", githuburl: "https://github.com/FelipeQuadrosdev/Filmes_Cartaz.git" },
-        { id: 2, imagem: photo8, titulo: "Web Criptomoedas", descricao: "Projeto criado para monitorar criptomoedas com o objetivo de aprimorar minha lógica de programação. Utiliza APIs para consumir dados, TypeScript para tipar as entradas de dados da API, a biblioteca React para a interface do usuário e Vite para configurar o ambiente de desenvolvimento com TypeScript e fetch nativo para consumir a API.", deployurl: "https://webcriptmoeda.netlify.app", githuburl: "https://github.com/FelipeQuadrosdev/Werbisite_Criptomoedas/tree/main" },
-        { id: 3, imagem: photo9, titulo: "Portfólio", descricao: "Portifolio criado em React para poder falar mais sobre meu trabalho, quais ferramentas eu utilizo, ter informações de contatos expondo minhas redes socias como GitHub e linkedin, emails e whatsApp e para falar um pouco mais sobre mim.", deployurl: "https://portifolio-91ka-git-main-felipequadrosdevs-projects.vercel.app/", githuburl: "https://github.com/FelipeQuadrosdev/Portifolio" },
+        { id: 1, imagem: photo7, titulo: "Filmes em Cartaz", alt:"Foto dos Filme em Cartaz", descricao: "Projeto criado para ver os filmes em cartaz, consumindo API com Axios, usando controle de rotas com React Router DOM e a biblioteca React-Toastify para animações com botões e React para a interface do usuário.", deployurl: " https://filme-cartaz.netlify.app", githuburl: "https://github.com/FelipeQuadrosdev/Filmes_Cartaz.git" },
+        { id: 2, imagem: photo8, titulo: "Web Criptomoedas", alt:"Foto das Criptomoedas",descricao: "Projeto criado para monitorar criptomoedas com o objetivo de aprimorar minha lógica de programação. Utiliza APIs para consumir dados, TypeScript para tipar as entradas de dados da API, a biblioteca React para a interface do usuário e Vite para configurar o ambiente de desenvolvimento com TypeScript e fetch nativo para consumir a API.", deployurl: "https://webcriptmoeda.netlify.app", githuburl: "https://github.com/FelipeQuadrosdev/Werbisite_Criptomoedas/tree/main" },
+        { id: 3, imagem: photo9, titulo: "Portfólio", alt:"Foto do Portfólio", descricao: "Portifolio criado em React para poder falar mais sobre meu trabalho, quais ferramentas eu utilizo, ter informações de contatos expondo minhas redes socias como GitHub e linkedin, emails e whatsApp e para falar um pouco mais sobre mim.", deployurl: "https://portifolio-91ka-git-main-felipequadrosdevs-projects.vercel.app/", githuburl: "https://github.com/FelipeQuadrosdev/Portifolio" },
 
     ]
     useEffect(() => {
@@ -52,8 +52,8 @@ export default function Aside() {
 
                             <img
                                 src={item.imagem}
-                                alt="Slider"
-                                className="imagemProjeto"
+                                alt={item.alt}
+                                className="imagemProjeto" 
                             />
 
                             <div className="content">
@@ -64,6 +64,7 @@ export default function Aside() {
                         </div>
 
                         <div className="Buttonprojeto">
+                            
                             <a href={item.deployurl} target="black" type="button" className="button-linck" >
                                 <button type="button" className="button" >Deploy</button>
                             </a>

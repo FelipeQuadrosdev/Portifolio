@@ -1,32 +1,61 @@
 .sectionsub {
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     margin: 15px;
     flex-direction: column;
     text-align: center;
 }
+.sectionsub2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    
+}
 hr {
-    margin: 10px;
+    margin: 0 auto;
+    text-align: justify;
     border: 0;
     height: 2px;
     background-color: #ccc;
-    width: 80vw;
-
-
+    width: 90%;
+    margin-left: 2rem;
+    margin: 1rem 0;
 }
 .span {
     color: #1d4ed8;
 }
 
 .sectioh2 {
+    width: 90%;
     font-size: 25px;
     font-family: sans-serif;
     font-weight: bold;
     color: #fff;
+   
 }
 
 .subtitulo {
-    font-size: 21px;
-    color: #71717a;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+    color: #cfcfcf;
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+}
+.strong{
+    font-size: 1.2rem;
+   
+}
+@media(max-width: 500px){
+    hr{
+        width: 100%;
+    }
+    .subtitulo{
+        padding: 1rem 0;
+    }
 }
