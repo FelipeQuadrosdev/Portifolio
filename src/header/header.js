@@ -24,7 +24,7 @@ export default function Header() {
                     Meu objetivo é criar interfaces intuitivas e experiências de usuário envolventes, alavancando boas práticas de design para desenvolver soluções eficientes e acessíveis.
                     Estou sempre buscando aprender, evoluir e contribuir para projetos que desafiem minha capacidade.</p>
             </div>
-            <div className="minha-imagem">
+            <div className="minha foto do Perfil,prazer Felipe">
                 <img
                     src={photo}
                 />
