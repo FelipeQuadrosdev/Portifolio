@@ -134,13 +134,15 @@ input::placeholder {
     align-items: center;
 
 }
-.divforter{
+
+.divforter {
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 #foterenvie {
     color: #fff;
     width: 100%;
@@ -196,7 +198,7 @@ input::placeholder {
     .fotersub2 #foterenvie {
         text-align: justify;
         margin: 25px auto;
-        
+
     }
 }
 
@@ -256,9 +258,11 @@ input::placeholder {
     .divforter {
         width: 80%;
     }
-    .divbuttons{
+
+    .divbuttons {
         margin: 0 auto;
-        }
+    }
+
     .fotersub1 {
         display: flex;
         align-items: center;
@@ -293,8 +297,10 @@ input::placeholder {
             justify-content: center;
             width: 15rem;
         }
-        .divbuttons{
-        margin: 0 auto;
+
+        .linck {
+            margin: 0 auto;
+
         }
 
     }
