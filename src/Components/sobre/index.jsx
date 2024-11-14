@@ -1,8 +1,8 @@
-import "../article/article.css"
+import "./sobre.css"
 import photo13 from "../photo/database-security.png"
 import photo14 from "../photo/computador.png"
 
-export default function Article(){
+export default function Sobre(){
     return(
         <article className="articleprincipal">
         <aside className="articleaside1">

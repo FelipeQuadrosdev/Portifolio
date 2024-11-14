@@ -1,4 +1,4 @@
-import "../aside/aside.css"
+import "./carrocelProjeto.css"
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -9,7 +9,7 @@ import photo7 from "../photo/prime flix.jpg"
 import photo8 from "../photo/Critpo.jpg"
 import photo9 from "../photo/fotocurriculo.jpg"
 
-export default function Aside() {
+export default function CarrocelProjeto() {
     const [sliderPerView, setSlidePerView] = useState(3);
     const capa = [
         { id: 1, imagem: photo7, titulo: "Filmes em Cartaz", alt:"Foto dos Filme em Cartaz", descricao: "Projeto criado para ver os filmes em cartaz, consumindo API com Axios, usando controle de rotas com React Router DOM e a biblioteca React-Toastify para animações com botões e React para a interface do usuário.", deployurl: " https://filme-cartaz.netlify.app", githuburl: "https://github.com/FelipeQuadrosdev/Filmes_Cartaz.git" },

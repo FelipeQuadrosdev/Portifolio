@@ -1,11 +1,11 @@
 import { useState } from "react"
-import "../footer/footer.css"
+import "./contato.css"
 import photo10 from "../photo/whatsapp.png"
 import photo11 from "../photo/github.png"
 import photo12 from "../photo/linkedin.png"
 import emailJs from "@emailjs/browser"
 
-export default function Footer() {
+export default function Contato() {
     const [nome, setNome] = useState("");
     const [email, SetEmail] = useState("");
     const [mensagem, setMensagem] = useState("");

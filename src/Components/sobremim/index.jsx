@@ -1,6 +1,6 @@
-import "../section/section.css"
+import "./sobremim.css"
 
-export default function Section() {
+export default function SobreMim() {
   return (
     <section className="sectionsub">
       <div className="sectionsub2">

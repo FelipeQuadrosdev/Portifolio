@@ -1,6 +1,6 @@
-import "../main/main.css"
+import "./descricao.css"
 
-export default function Main() {
+export default function Descricao() {
     return (
         <main className="mainprincipal">
             <div className="submain">

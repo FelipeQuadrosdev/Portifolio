@@ -1,4 +1,4 @@
-import "../section2/section2.css"
+import "./carrocelInfinit.css"
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -16,7 +16,7 @@ import photo16 from "../photo/git.png"
 import photo17 from "../photo/github.png"
 
 
-export default function Section2() {
+export default function CarrocelInfinit() {
 
 
     const data = [
