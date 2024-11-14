@@ -1,8 +1,8 @@
 import "./header.css"
-import photo10 from "../photo/whatsapp.png"
-import photo11 from "../photo/github.png"
-import photo12 from "../photo/linkedin.png"
-import photo from "../photo/felipe.jpg"
+import photo10 from "../../photo/whatsapp.png"
+import photo11 from "../../photo/github.png"
+import photo12 from "../../photo/linkedin.png"
+import photo from "../../photo/felipe.jpg"
 
 export default function Header() {
 

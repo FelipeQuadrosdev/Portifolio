@@ -5,15 +5,15 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import photo1 from "../photo/css.png"
-import photo2 from "../photo/firebase.png"
-import photo3 from "../photo/react.png"
-import photo4 from "../photo/html-5.png"
-import photo5 from "../photo/js.png"
-import photo6 from "../photo/styled-components.png"
-import photo15 from "../photo/typescript.svg"
-import photo16 from "../photo/git.png"
-import photo17 from "../photo/github.png"
+import photo1 from "../../photo/css.png"
+import photo2 from "../../photo/firebase.png"
+import photo3 from "../../photo/react.png"
+import photo4 from "../../photo/html-5.png"
+import photo5 from "../../photo/js.png"
+import photo6 from "../../photo/styled-components.png"
+import photo15 from "../../photo/typescript.svg"
+import photo16 from "../../photo/git.png"
+import photo17 from "../../photo/github.png"
 
 
 export default function CarrocelInfinit() {

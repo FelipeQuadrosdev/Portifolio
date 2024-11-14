@@ -1,13 +1,16 @@
+import { useEffect, useState } from "react";
 import "./carrocelProjeto.css"
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { useEffect, useState } from "react";
+
 import { Swiper, SwiperSlide } from 'swiper/react';
-import photo7 from "../photo/prime flix.jpg"
-import photo8 from "../photo/Critpo.jpg"
-import photo9 from "../photo/fotocurriculo.jpg"
+
+import photo7 from "../../photo/prime flix.jpg"
+import photo8 from "../../photo/Critpo.jpg"
+import photo9 from "../../photo/fotocurriculo.jpg"
 
 export default function CarrocelProjeto() {
     const [sliderPerView, setSlidePerView] = useState(3);

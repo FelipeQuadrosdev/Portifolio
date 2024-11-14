@@ -1,6 +1,6 @@
 import "./sobre.css"
-import photo13 from "../photo/database-security.png"
-import photo14 from "../photo/computador.png"
+import photo13 from "../../photo/database-security.png"
+import photo14 from "../../photo/computador.png"
 
 export default function Sobre(){
     return(
