@@ -19,8 +19,9 @@ export default function Header() {
 
             <div className="titulo_p">
 
-                <p className="descricao">Com foco em Frontend e uma jornada de 2 anos aprimorando habilidades em <strong>HTML,
-                    CSS e JavaScript, React, React Native, Firebase ,Git, GitHub, Typescript, Cursando Bacharelado Sistema da Informação,Cursinho FullStackPro </strong> busco integrar uma equipe de desenvolvimento onde possa aplicar minhas competências técnicas.
+                <p className="descricao">Com foco em Frontend e uma jornada de 2 anos aprimorando habilidades em <strong> HTML,
+                    CSS e JavaScript, React, React Native, Firebase ,Git, GitHub, Typescript, Cursando Bacharelado Sistema da Informação,Cursinho FullStackPro </strong> 
+                    busco integrar uma equipe de desenvolvimento onde possa aplicar minhas competências técnicas.
                     Meu objetivo é criar interfaces intuitivas e experiências de usuário envolventes, alavancando boas práticas de design para desenvolver soluções eficientes e acessíveis.
                     Estou sempre buscando aprender, evoluir e contribuir para projetos que desafiem minha capacidade.</p>
             </div>

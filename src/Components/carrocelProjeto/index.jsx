@@ -10,14 +10,14 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import photo7 from "../../photo/prime flix.jpg"
 import photo8 from "../../photo/Critpo.jpg"
-import photo9 from "../../photo/fotocurriculo.jpg"
+import photo9 from "../../photo/linkeTry.png"
 
 export default function CarrocelProjeto() {
     const [sliderPerView, setSlidePerView] = useState(3);
     const capa = [
         { id: 1, imagem: photo7, titulo: "Filmes em Cartaz", alt:"Foto dos Filme em Cartaz", descricao: "Projeto criado para ver os filmes em cartaz, consumindo API com Axios, usando controle de rotas com React Router DOM e a biblioteca React-Toastify para animações com botões e React para a interface do usuário.", deployurl: " https://filme-cartaz.netlify.app", githuburl: "https://github.com/FelipeQuadrosdev/Filmes_Cartaz.git" },
         { id: 2, imagem: photo8, titulo: "Web Criptomoedas", alt:"Foto das Criptomoedas",descricao: "Projeto criado para monitorar criptomoedas com o objetivo de aprimorar minha lógica de programação. Utiliza APIs para consumir dados, TypeScript para tipar as entradas de dados da API, a biblioteca React para a interface do usuário e Vite para configurar o ambiente de desenvolvimento com TypeScript e fetch nativo para consumir a API.", deployurl: "https://webcriptmoeda.netlify.app", githuburl: "https://github.com/FelipeQuadrosdev/Werbisite_Criptomoedas/tree/main" },
-        { id: 3, imagem: photo9, titulo: "Portfólio", alt:"Foto do Portfólio", descricao: "Portifolio criado em React para poder falar mais sobre meu trabalho, quais ferramentas eu utilizo, ter informações de contatos expondo minhas redes socias como GitHub e linkedin, emails e whatsApp e para falar um pouco mais sobre mim.", deployurl: "https://portifolio-91ka-git-main-felipequadrosdevs-projects.vercel.app/", githuburl: "https://github.com/FelipeQuadrosdev/Portifolio" },
+        { id: 3, imagem: photo9, titulo: "LinkeTry", alt:"Foto do linketry onde pode modificar seus linkes das redes sociais", descricao: "Este projeto foi desenvolvido para armazenar, modificar e centralizar todas as suas redes sociais e sites em um único lugar. Utilizamos diversas tecnologias para garantir um desempenho eficiente e uma experiência de usuário agradável. JavaScript e TypeScript: Para tipagem e correção de erros em tempo real. Tailwind:Para estilização rápida e responsiva. React Router DOM: Para navegação entre páginas. Firebase:Utilizado como banco de dados NoSQL e para autenticação de usuários, permitindo a criação de contas e login de forma segura..", deployurl:"#", githuburl: "https://github.com/FelipeQuadrosdev/LinkeTry" },
 
     ]
     useEffect(() => {
