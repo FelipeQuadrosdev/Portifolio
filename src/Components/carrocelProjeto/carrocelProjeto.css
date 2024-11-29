@@ -51,8 +51,8 @@
 
 .containerimagem {
     display: flex;
-    width: 29rem;
-    height: 25rem;
+    width: 30rem;
+    height: 29rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -96,7 +96,7 @@
 }
 
 .descricaoProjeto {
-    color: #e3e3e3;
+    color: #fff;
     font-size: 1rem;
     text-align: justify;
     margin: 0 auto;
@@ -162,16 +162,16 @@
     }
 
     .containerimagem img {
-        width: 20rem;
+        width: 22rem;
         height: 23rem;
-        margin: 0 auto;
-
+        margin-left: -1rem;
     }
 
     .content {
-        width: 20rem;
-        height: 20rem;
+        width: 22rem;
+        height: 29rem;
         margin: 0 auto;
+        overflow-y: auto;
     }
 
 
@@ -181,11 +181,34 @@
     }
 
     .containerimagem {
-        height: 20rem;
+        height: 29rem;
+
     }
 
     .containerimagem img {
         height: 100%;
+    }
+
+    @media (max-width: 361px) {
+        .containerimagem {
+            width: 20rem;
+            height: 27rem;
+        }
+
+        .containerimagem img {
+            width: 20rem;
+            height: 27rem;
+            margin: 0 auto;
+        }
+
+        .content {
+            padding-top: 2.3rem;
+            width: 20rem;
+            height: 27rem;
+            margin: 0 auto;
+            overflow-y: auto;
+
+        }
     }
 
 }
