@@ -190,27 +190,26 @@
     }
 
     @media (max-width: 361px) {
-        .containerimagem {
-            width: 20rem;
-            height: 29rem;
-        }
-
         .containerimagem img {
             width: 20rem;
             height: 29rem;
             margin: 0 auto;
         }
-
         .content {
             padding-top: 3.6rem;
             width: 20rem;
             height: 29rem;
             margin: 0 auto;
             overflow-y: auto;
+        }
+
+        .descricaoProjeto {
+            margin: 0 auto;
 
         }
-        .descricaoProjeto{
-            margin-top: -1rem;
+
+        .h4-titulo {
+            margin: 0 auto;
         }
     }
 
