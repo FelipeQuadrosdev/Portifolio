@@ -192,19 +192,19 @@
     @media (max-width: 361px) {
         .containerimagem {
             width: 20rem;
-            height: 28rem;
+            height: 29rem;
         }
 
         .containerimagem img {
             width: 20rem;
-            height: 28rem;
+            height: 29rem;
             margin: 0 auto;
         }
 
         .content {
-            padding-top: 3rem;
+            padding-top: 3.6rem;
             width: 20rem;
-            height: 28rem;
+            height: 29rem;
             margin: 0 auto;
             overflow-y: auto;
 
