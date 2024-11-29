@@ -209,6 +209,9 @@
             overflow-y: auto;
 
         }
+        .descricaoProjeto{
+            margin-top: -1rem;
+        }
     }
 
 }
