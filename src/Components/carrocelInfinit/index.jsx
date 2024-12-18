@@ -19,7 +19,7 @@ import photo17 from "../../photo/github.png"
 export default function CarrocelInfinit() {
 
 
-    const data = [
+   const data = [
         { id: '1', imagem: photo5, nome: "Java-Scrip" },
         { id: '2', imagem: photo1, nome: "CSS" },
         { id: '3', imagem: photo2, nome: "Firebase" },

@@ -52,7 +52,7 @@
 .containerimagem {
     display: flex;
     width: 30rem;
-    height: 29rem;
+    height: 35rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -64,16 +64,32 @@
 .containerimagem img {
     margin: 0 auto;
     width: 100%;
-    height: 100%;
+    height: 90%;
     border-radius: 5px;
 
+}
+
+.icones {
+    display: flex;
+    padding-top: 0.3rem;
+    gap: 1rem;
+    margin: 0 auto;
+
+}
+
+.icones .icone {
+    width: 25px;
+    height: 25px;
 }
 
 .h4-titulo {
     color: #ffff;
     font-size: 1.3rem;
-    margin-bottom: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
     font-style: italic;
+    text-align: center;
+
 }
 
 .content {
@@ -81,19 +97,13 @@
     width: 100%;
     height: 100%;
     border-radius: 5px;
-    visibility: hidden;
-    position: absolute;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     text-align: justify;
+    overflow: hidden;
 }
 
-.containerimagem:hover .content {
-    visibility: visible;
 
-}
 
 .descricaoProjeto {
     color: #fff;
@@ -111,8 +121,10 @@
     width: 20rem;
     height: 2.2rem;
     flex-direction: row;
-    margin: 1rem 0;
+    
     gap: 6rem;
+    margin: 1rem 0 1rem 0 ;
+
 }
 
 .button-linck {
@@ -154,64 +166,30 @@
     color: #fff;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 541px) {
     .containerimagem {
+        margin: 0 auto;
         width: 20rem;
-        height: 22rem;
+        height: 29rem;
         box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
     }
 
     .containerimagem img {
-        width: 22rem;
-        height: 23rem;
-        margin-left: -1rem;
+        width: 20rem;
+        height: 29rem;
     }
 
     .content {
-        width: 22rem;
+
+        width: 20rem;
         height: 29rem;
-        margin: 0 auto;
         overflow-y: auto;
     }
 
 
 
-    .Buttonprojeto button {
-        width: 5rem;
+    .h4-titulo {
+        margin: 0 auto;
+        padding-top: 1rem;
     }
-
-    .containerimagem {
-        height: 29rem;
-
-    }
-
-    .containerimagem img {
-        height: 100%;
-    }
-
-    @media (max-width: 361px) {
-        .containerimagem img {
-            width: 20rem;
-            height: 29rem;
-            margin: 0 auto;
-        }
-        .content {
-            padding-top: 3.6rem;
-            width: 20rem;
-            height: 29rem;
-            margin: 0 auto;
-            overflow-y: auto;
-        }
-
-        .descricaoProjeto {
-            margin: 0 auto;
-
-        }
-
-        .h4-titulo {
-            margin: 0 auto;
-            padding-top: 1rem;
-        }
-    }
-
 }
