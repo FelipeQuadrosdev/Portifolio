@@ -11,6 +11,7 @@ import photo3 from "../../photo/react.png"
 import photo4 from "../../photo/html-5.png"
 import photo5 from "../../photo/js.png"
 import photo6 from "../../photo/styled-components.png"
+import photo7 from "../../icons/nextjs.256x256.png"
 import photo15 from "../../photo/typescript.svg"
 import photo16 from "../../photo/git.png"
 import photo17 from "../../photo/github.png"
@@ -29,6 +30,7 @@ export default function CarrocelInfinit() {
         { id: '7', imagem: photo15, nome: "TypeScript" },
         { id: '8', imagem: photo16, nome: "Git" },
         { id: '9', imagem: photo17, nome: "GitHub" },
+        { id: '10', imagem: photo7, nome: "Next" },
     ]
 
 

@@ -46,6 +46,7 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
+    max-width: 1000px;
     margin-top: 2rem;
 }
 
@@ -59,18 +60,20 @@
     position: relative;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
     border-radius: 5px;
+    object-fit:contain;
 }
 
 .containerimagem img {
     margin: 0 auto;
     width: 100%;
-    height: 90%;
+    height: 60%;
     border-radius: 5px;
 
 }
 
 .icones {
     display: flex;
+    flex-direction: row;
     padding-top: 0.3rem;
     gap: 1rem;
     margin: 0 auto;

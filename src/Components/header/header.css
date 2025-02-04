@@ -41,7 +41,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     text-align: justify;
 }
@@ -87,8 +87,8 @@ strong {
     color: #fff;
 }
 
-.div_imagem_perfil{
-   
+.div_imagem_perfil {
+
     animation: mover 3s ease-in-out forwards;
 }
 
@@ -135,7 +135,5 @@ strong {
         margin-top: 1rem;
     }
 
-    .div_imagem_perfil img{
-      
-    }
+    .div_imagem_perfil img {}
 }
