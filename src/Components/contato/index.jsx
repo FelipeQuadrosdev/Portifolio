@@ -33,7 +33,7 @@ export default function Contato() {
 
     return (
 
-        <footer className="foterprincipal" style={{ backgroundImage: `url()` }}>
+        <footer className="foterprincipal" id="footer"   style={{ backgroundImage: `url()` }}>
             <form className="fotersub1" onSubmit={EnviarEmail}>
                 <input
                     className="input"

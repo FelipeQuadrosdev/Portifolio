@@ -52,6 +52,7 @@ input::placeholder {
     color: #000;
     background-color: #d7d7d7;
     outline: none;
+    resize: none;
 }
 
 .mensagem::placeholder {

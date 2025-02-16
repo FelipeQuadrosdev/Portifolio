@@ -1,0 +1,133 @@
+/* Estilos Globais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin-top: 6rem;
+    color: #c0c0c0;
+    max-width: 1280px;
+    width: 100%;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.name-container {
+    flex: 1;
+    margin: 0.1rem;
+}
+
+.name-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.name-item {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.animated-text {
+    color: rgb(36, 80, 255);
+    font-size: 2rem;
+    display: inline-block;
+}
+
+@keyframes changeText {
+    0%, 33% {
+        content: "Desenvolvedor Front-end";
+    }
+    34%, 66% {
+        content: "Desenvolvedor Web";
+    }
+    67%, 100% {
+        content: "Desenvolvedor Front-end";
+    }
+}
+
+.animated-text::after {
+    content: "Desenvolvedor Front-end";
+    animation: changeText 10s infinite;
+}
+
+
+.description-container {
+    flex: 2;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.description-text {
+    line-height: 2rem;
+    color: #cfcfcf;
+    font-size: 1.2rem;
+}
+
+
+.profile-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.profile-image-container img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    cursor: pointer;
+    animation: mover 3s ease-in-out forwards;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Responsividade */
+@media (max-width: 1000px) {
+    .profile-section {
+        flex-direction: column;
+    }
+    .description-container, .profile-image-container, .name-container {
+        width: 100%;
+    }
+    .description-text {
+        text-align: justify;
+        font-size: 1rem;
+    }
+    .profile-image-container img {
+        width: 20rem;
+        height: 20rem;
+    }
+    .name-item {
+        line-height: 150%;
+        font-size: 1.6rem;
+    }
+    .animated-text{
+        font-size: 1.5rem;
+    }
+    .name-container {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+}

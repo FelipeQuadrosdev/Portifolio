@@ -1,139 +1,112 @@
-.titulo {
+.header {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    color: #c0c0c0;
-    width: 100vw;
-    padding: 15px;
-
+    align-items: center;
+    width: 100%;
 }
 
-.headerbuttons {
+.header_content {
+    position: fixed;
+    top: 0;
+    width: calc(100% - 2rem);
+    height: 80px;
+    max-width: 1280px;
     display: flex;
-    margin-left: -90%;
-    justify-self: end;
-    width: 4rem;
-    height: 3rem;
-    color: #fff;
-    flex-direction: column;
-    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9;
+    border: 0.5px solid #d6d6d6;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    box-sizing: border-box;
 }
 
 .linckhedaer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    height: 80%;
     margin: 0.90rem;
-    border-radius: 5rem;
+    border-radius: 5px;
+    display: inline-block;
 }
 
-.headerbuttons .imgIcone {
-    width: 100%;
-    height: 100%;
+.linckhedaer:hover {
+    box-shadow: 0 0 10px 10px rgba(0, 174, 255, 0.75);
+    transition: box-shadow 0.3s ease;
 }
 
-.titulo_p {
+.header_ul {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 75%;
-    margin: 0 auto;
-    text-align: justify;
-}
+    list-style: none;
+    gap: 1rem;
+    padding-left: 1rem;
 
-.descricao {
-    line-height: 2rem;
-    color: #cfcfcf;
+}
+.button_header{
+    background-color:transparent;
+}
+.header_ul .a {
+    color:#8762ff;
+    text-decoration: none;
     font-size: 1.2rem;
+    position: relative;
 }
 
-
-#profissao {
-    display: flex;
-    font-size: 1.5rem;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    width: 70%;
-    margin-bottom: -1rem;
+.header_ul .a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 7px;
+    right: 0;
+    background: blue;
+    transition: width 0.4s ease;
 }
 
-#nome {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.8rem;
-    color: #fff;
+.a:hover {
+    color: blue;
+}
 
+.header_ul .a:hover::after {
+    width: 100%;
+    left: 0;
+    right: auto;
 
 }
 
-img {
-    width: 15rem;
-    height: 15rem;
-    margin-left: 5rem;
-    margin-top: 2rem;
-    border-radius: 15rem;
-    cursor: pointer;
-}
+@media (max-width: 700px) {
 
-strong {
-    font-weight: bold;
-    color: #fff;
-}
-
-.div_imagem_perfil {
-
-    animation: mover 3s ease-in-out forwards;
-}
-
-@keyframes mover {
-    0% {
-        transform: translateX(200px);
-    }
-
-    100% {
-        transform: translateX(-2.5rem);
-    }
-}
-
-@media(max-width: 500px) {
-    .descricao {
-        line-height: 1.5rem;
-    }
-
-    #profissao {
-        font-size: 1.3rem;
-    }
-
-    #nome {
-        font-size: 1.3rem;
-    }
-
-    .titulo_p {
-        width: 95%;
-    }
-
-    .headerbuttons {
+    .header_content {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        margin: 0 auto;
-    }
-
-    .div_imagem_perfil {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
+        justify-content: space-around;
+        width: calc(100% - 1rem);
         margin-top: 1rem;
+
+
+    }
+    .header_ul{
+       margin: 0 auto;
+        gap: 1rem;
+        padding-top: 0.5rem;
+    }
+    .header_ul .a {
+        font-size: 1rem;
+    }
+.headerbuttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+    .linckhedaer {
+   padding-bottom: 1rem;
     }
 
-    .div_imagem_perfil img {}
+    .icone {
+        width: 22px;
+        height: 22px;
+
+    }
 }

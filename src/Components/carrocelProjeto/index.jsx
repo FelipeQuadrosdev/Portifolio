@@ -49,7 +49,7 @@ export default function CarrocelProjeto() {
         };
     }, [])
     return (
-        <aside className="divcontainer">
+        <aside className="divcontainer" id="projetos">
             <div className="projetos">
                 <h2 ><span className="h2-one">Meus, </span>
                     <span className="h2-two">Projetos!</span>
