@@ -7,7 +7,7 @@ export default function Main() {
             <section className="profile-section">
                 <div className="profile-image-container">
                     <img src={photo} alt="Perfil de Felipe" />
-                </div>
+                </div>git 
 
                 <div className="description-container">
                     <div className="name-container">
@@ -24,8 +24,8 @@ export default function Main() {
                         Tenho um interesse genuíno em atuar tanto no frontend quanto no backend,
                         com o objetivo de contribuir de forma abrangente para o desenvolvimento de sistemas funcionais e escaláveis.
                         Estou motivado a integrar uma equipe onde possa não apenas aplicar meus conhecimentos, mas também aprender e
-                        colaborar para o crescimento mútuo, onde resolvo problemas e cumprir com as demandas da empresa da melhor forma possivel. 
-                        Hoje buscando transição de carreira para a área de desenvolvimento Front-End. 
+                        colaborar para o crescimento mútuo, onde resolvo problemas e cumprir com as demandas da empresa da melhor forma possivel.
+                        Hoje buscando transição de carreira para a área de desenvolvimento Front-End.
                     </p>
                 </div>
             </section>
