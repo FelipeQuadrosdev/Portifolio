@@ -2,7 +2,7 @@
 import { FaWhatsapp, FaLinkedin, } from "react-icons/fa";
 import { MdOutgoingMail } from "react-icons/md";
 import { IoLogoGithub } from "react-icons/io";
-import curriculo from "../../photo/MeuCurriculo.pdf"
+import curriculo from "../../photo/Meu Curriculo.pdf"
 import "./header.css"
 
 export default function Header() {
