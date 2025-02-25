@@ -1,5 +1,5 @@
 import "./main.css";
-import photo from "../../photo/felipe.jpg";
+import photo from "../../photo/felipe.JPG";
 
 export default function Main() {
     return (
@@ -7,7 +7,7 @@ export default function Main() {
             <section className="profile-section">
                 <div className="profile-image-container">
                     <img src={photo} alt="Perfil de Felipe" />
-                </div>git 
+                </div>git
 
                 <div className="description-container">
                     <div className="name-container">
