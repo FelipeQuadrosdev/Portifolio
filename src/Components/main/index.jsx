@@ -24,7 +24,7 @@ export default function Main() {
                         habilidades em liderança de projeto e atenção ao usuário. A formação em Sistemas da
                         Informação complementa a expertise técnica, oferecendo uma base sólida para atender às
                         necessidades de empresas inovadoras. Pronto para agregar valor ao time com soluções
-                        criativas e eficientes
+                        criativas e eficientes.
                     </p>
                 </div>
             </section>
