@@ -18,14 +18,13 @@ export default function Main() {
                         </ul>
                     </div>
                     <p className="description-text">
-                        Estou em uma jornada de 3 anos aprimorando minhas habilidades. Sou motivado e versátil, sempre pronto para novos desafios e dedicado a entregar alta qualidade.
-                        Com uma mentalidade de crescimento, estou preparado para impulsionar seu negócio.
-                        Busco constantemente aprimorar meus conhecimentos e minhas habilidades, sempre buscando as melhores práticas de desenvolvimento.
-                        Tenho um interesse genuíno em atuar tanto no frontend quanto no backend,
-                        com o objetivo de contribuir de forma abrangente para o desenvolvimento de sistemas funcionais e escaláveis.
-                        Estou motivado a integrar uma equipe onde possa não apenas aplicar meus conhecimentos, mas também aprender e
-                        colaborar para o crescimento mútuo, onde resolvo problemas e cumprir com as demandas da empresa da melhor forma possivel.
-                        Hoje buscando transição de carreira para a área de desenvolvimento Front-End.
+                        Proativo desenvolvedor Front-end e Web com experiência prática em desenvolvimento de
+                        sistemas, utilizando tecnologias modernas como Next.js, JavaScript ,TypeScript e Firebase.
+                        Em projetos pessoais, criei um sistema intuitivo para organização de tarefas, demonstrando
+                        habilidades em liderança de projeto e atenção ao usuário. A formação em Sistemas da
+                        Informação complementa a expertise técnica, oferecendo uma base sólida para atender às
+                        necessidades de empresas inovadoras. Pronto para agregar valor ao time com soluções
+                        criativas e eficientes
                     </p>
                 </div>
             </section>

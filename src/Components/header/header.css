@@ -40,11 +40,13 @@
     padding-left: 1rem;
 
 }
-.button_header{
-    background-color:transparent;
+
+.button_header {
+    background-color: transparent;
 }
+
 .header_ul .a {
-    color:#8762ff;
+    color: #8762ff;
     text-decoration: none;
     font-size: 1.2rem;
     position: relative;
@@ -85,23 +87,27 @@
 
 
     }
-    .header_ul{
-       margin: 0 auto;
+
+    .header_ul {
+        margin: 0 auto;
         gap: 1rem;
         padding-top: 0.5rem;
     }
+
     .header_ul .a {
         font-size: 1rem;
     }
-.headerbuttons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    
-}
+
+    .headerbuttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+
+    }
+
     .linckhedaer {
-   padding-bottom: 1rem;
+        padding-bottom: 1rem;
     }
 
     .icone {
