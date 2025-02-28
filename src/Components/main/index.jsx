@@ -7,7 +7,7 @@ export default function Main() {
             <section className="profile-section">
                 <div className="profile-image-container">
                     <img src={photo} alt="Perfil de Felipe" />
-                </div>git
+                </div>
 
                 <div className="description-container">
                     <div className="name-container">
