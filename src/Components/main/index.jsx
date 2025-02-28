@@ -1,5 +1,5 @@
 import "./main.css";
-import photo from "../../photo/felipe.JPG";
+import photo from "../../photo/felipe.jpg";
 
 export default function Main() {
     return (
