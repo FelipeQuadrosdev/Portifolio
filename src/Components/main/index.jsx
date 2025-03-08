@@ -18,13 +18,14 @@ export default function Main() {
                         </ul>
                     </div>
                     <p className="description-text">
-                        Proativo desenvolvedor Front-end e Web com experiência prática em desenvolvimento de
-                        sistemas, utilizando tecnologias modernas como Next.js, JavaScript ,TypeScript e Firebase.
-                        Em projetos pessoais, criei um sistema intuitivo para organização de tarefas, demonstrando
-                        habilidades em liderança de projeto e atenção ao usuário. A formação em Sistemas da
-                        Informação complementa a expertise técnica, oferecendo uma base sólida para atender às
-                        necessidades de empresas inovadoras. Pronto para agregar valor ao time com soluções
-                        criativas e eficientes.
+                        Busco uma oportunidade como Desenvolvedor Front-End para aplicar minhas
+                        competências técnicas, aprimoradas ao longo de 3 anos de estudos e prática com
+                        HTML, CSS, JavaScript, TypeScript e frameworks como Next, React e React Native.
+                        Almejo, no futuro, atuar como Desenvolvedor FullStack. Tenho como foco criar
+                        interfaces intuitivas e experiências de usuário envolventes, aplicando boas práticas de
+                        design para desenvolver soluções eficientes e acessíveis. Estou sempre em busca de
+                        aprendizado, evolução profissional e de contribuir com projetos desafiadores,
+                        oferecendo soluções práticas e eficientes para as demandas da empresa.
                     </p>
                 </div>
             </section>
